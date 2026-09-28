@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 220" role="img" aria-labelledby="title desc">
+<title>Patas de Esperança</title>
+<desc>Logo com uma pata estilizada e o nome Patas de Esperança</desc>
+<rect width="600" height="220" rx="35" fill="#f4f8f5"/>
+<circle cx="105" cy="110" r="62" fill="#5b8c5a"/>
+<g fill="#ffffff">
+  <ellipse cx="105" cy="125" rx="27" ry="34"/>
+  <ellipse cx="67" cy="91" rx="15" ry="22" transform="rotate(-28 67 91)"/>
+  <ellipse cx="96" cy="72" rx="15" ry="22" transform="rotate(-8 96 72)"/>
+  <ellipse cx="128" cy="72" rx="15" ry="22" transform="rotate(10 128 72)"/>
+  <ellipse cx="156" cy="92" rx="15" ry="22" transform="rotate(30 156 92)"/>
+</g>
+<text x="190" y="105" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#29452d">Patas de Esperança</text>
+<text x="193" y="143" font-family="Arial, sans-serif" font-size="22" fill="#5b6f60">Proteção • Cuidado • Adoção</text>
+</svg>
