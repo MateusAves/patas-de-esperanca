@@ -228,7 +228,8 @@ function configurarFormulario() {
 
                 mostrarToast(
                     "Atenção",
-                    "Verifique os campos obrigatórios."
+                    "Verifique os campos obrigatórios.",
+                  "alert"
                 );
 
                 formulario.reportValidity();
