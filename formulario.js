@@ -9,7 +9,7 @@ const APP_KEY = "patasDeEsperancaVoluntario";
 // TOAST
 // ==========================================
 
-function mostrarToast(titulo, mensagem) {
+function mostrarToast(titulo, mensagem, tipo="status") {
 
     const toast =
         document.createElement("div");
@@ -17,14 +17,14 @@ function mostrarToast(titulo, mensagem) {
     toast.className = "toast";
 
     toast.setAttribute(
-        "role",
-        "status"
-    );
+    "role",
+    tipo
+);
 
-    toast.setAttribute(
-        "aria-live",
-        "polite"
-    );
+toast.setAttribute(
+    "aria-live",
+    tipo === "alert" ? "assertive" : "polite"
+);
 
     toast.innerHTML = `
         <strong>${titulo}</strong>
